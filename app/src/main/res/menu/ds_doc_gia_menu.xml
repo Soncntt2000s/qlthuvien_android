@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itDaChon"
+        android:title="đã chọn (0)"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itTimDocGia"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="TÌM ĐỌC GIẢ"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+
+    <item
+        android:id="@+id/itChonTatCa"
+        android:enabled="false"
+        android:title="CHỌN TẤT CẢ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itXoaMucDaChon"
+        android:enabled="false"
+        android:title="XÓA MỤC ĐÃ CHỌN"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itHuyChon"
+        android:enabled="false"
+        android:title="HỦY CHỌN"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itThemMoiDG"
+        android:enabled="true"
+        android:title="THÊM MỚI ĐỌC GIẢ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itTaoLaiDLTestApp"
+        android:enabled="true"
+        android:title="TẠO LẠI CSDL Test App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itThoat"
+        android:enabled="true"
+        android:title="ĐÓNG ỨNG DỤNG"
+        app:showAsAction="never" />
+</menu>

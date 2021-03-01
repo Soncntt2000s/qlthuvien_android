@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itThemCT"
+        android:enabled="true"
+        android:title="THÊM MỚI"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itLuuCT"
+        android:enabled="true"
+        android:title="LƯU"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itXoaCT"
+        android:enabled="true"
+        android:title="XÓA"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itThoatct"
+        android:enabled="true"
+        android:title="TRỞ VỀ"
+        app:showAsAction="never" />
+</menu>
